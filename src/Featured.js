@@ -1,6 +1,7 @@
 import React from 'react'
 import './Featured.css'
 import { Link } from 'react-router-dom'
+import StarBorderIcon from '@material-ui/icons/StarBorder';
 
 function Featured({
   title,
@@ -24,6 +25,7 @@ function Featured({
       </div>
       <div className='featured__right'>
         <img src={image} alt='' />
+        {/* <h1><StarBorderIcon/><StarBorderIcon/><StarBorderIcon/><StarBorderIcon/><StarBorderIcon/></h1> */}
       </div>
     </div>
   )

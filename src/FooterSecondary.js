@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import CleanFooter from './cleaning/CleanFooter'
 import FindAStore from './FindAStore'
 import './FooterSecondary.css'
 
 function FooterSecondary({ alignItems, paddingLeft, flexDirection }) {
   return (
+    <>
     <div
       className='footerSecondary'
       style={{ alignItems, paddingLeft: `${paddingLeft * 2}px` }}
@@ -25,9 +27,11 @@ function FooterSecondary({ alignItems, paddingLeft, flexDirection }) {
             <Link>Cookie Preferences</Link>
           </div>
         </div>
-        <span className='footerSecondary__copyright'>© 2021 Starbucks</span>
+        <span className='footerSecondary__copyright'>© 2021 TazzerCleaning</span>
       </div>
     </div>
+    {/* <CleanFooter /> */}
+    </>
   )
 }
 

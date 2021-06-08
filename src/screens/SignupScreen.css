@@ -77,3 +77,13 @@
     font-size: 13px;
   }
 }
+
+
+/* extra */
+.arrow-pointer {
+  font-size: 2rem;
+}
+
+.arrow-pointer:hover{
+   color: black;
+}

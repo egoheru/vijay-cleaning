@@ -6,8 +6,10 @@
 
 .menuList__container > h4 {
   color: rgba(0, 0, 0, 0.87);
+  /* color: red; */
   margin-bottom: 20px;
   font-size: 18px;
+  font-weight: 800;
 }
 
 .menuList__items {
@@ -22,4 +24,8 @@
   font-weight: 600;
   max-width: 150px;
   line-height: 1.5;
+}
+
+.menuList__items > a:hover{
+  color: goldenrod;
 }

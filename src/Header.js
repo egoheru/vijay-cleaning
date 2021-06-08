@@ -8,6 +8,7 @@ import FindAStore from './FindAStore'
 import { useSelector } from 'react-redux'
 import { selectUser } from './features/userSlice'
 import LogoutButton from './LogoutButton'
+import { FiNavigation } from 'react-icons/fi'
 
 function Header({ menuPage }) {
   const user = useSelector(selectUser)
@@ -20,12 +21,14 @@ function Header({ menuPage }) {
             src='https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png'
             alt=''
           />
+          {/* <FiNavigation /> */}
         </Link>
         <Link to='/menu' className='header__link'>
-          Menu
+          Start
         </Link>
-        <Link to="/rewards" className='header__link'>Rewards</Link>
-        <Link to="/cards" className='header__link'>Gift Cards</Link>
+        <Link to="/services" className='header__link'>Services</Link>
+        <Link to="/about" className='header__link'>About Us</Link>
+        {/* <Link to="/cards" className='header__link'>Gift Cards</Link> */}
         <Link to="/contact" className='header__link'>Contact US</Link>
         {/* <Link className='header__link'>Rewards</Link>
         <Link className='header__link'>Gift Cards</Link> */}

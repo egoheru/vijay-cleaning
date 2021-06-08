@@ -1,0 +1,55 @@
+
+.HowWork-container{ 
+   max-width: 1140px;
+   margin:0 auto;
+   padding: 0 20px;
+}
+
+.HowWork-flex {
+   display: flex;
+   justify-content: space-between;
+}
+
+.HowWork{
+    padding: 3rem 0;
+    background-color: wheat;
+    text-align: center;
+}
+
+.HowWork h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-family: monospace;
+    color: violet;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.HowWork .HowWork-flex > div {
+    width: 30%;
+}
+
+.HowWork h4 {
+    color: brown;
+    margin-top: 1rem;
+}
+
+.HowWork p {
+    color: chocolate;
+}
+
+.HowWork span.fas {
+    color: crimson;
+    font-size: 35px;
+    height: 300px;
+}
+
+
+/* extra */
+
+@media (max-width: 824px) {
+    .HowWork-flex  {
+     flex-direction: column;
+     align-items: center;
+  }
+}

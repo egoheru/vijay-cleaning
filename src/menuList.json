@@ -3,89 +3,326 @@
     "drinks": [
       {
         "path": "/drinks/hot-coffees",
-        "type": "Hot Coffees",
-        "image": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_tight_288"
+        "type": "Domestic Maintainance",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30/hr"
       },
       {
         "path": "/drinks/hot-teas",
-        "type": "Hot Teas",
-        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288"
+        "type": "Office Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288",
+        "price": "$/hr"
       },
       {
         "path": "/drinks/hot-drinks",
-        "type": "Hot Drinks",
-        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242"
+        "type": "Industrial Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242",
+        "price": "$/hr"
       },
       {
         "path": "/drinks/frappuccino-blended-beverages",
-        "type": "Frappuccino® Blended Beverages",
-        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288"
+        "type": "Train & Bus Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
       },
       {
         "path": "/drinks/cold-coffees",
-        "type": "Cold Coffees",
-        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242"
+        "type": "Medical Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242",
+        "price": "$/hr"
       },
       {
         "path": "/drinks/iced-teas",
-        "type": "Iced Teas",
-        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242"
+        "type": "School Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       },
       {
         "path": "/drinks/cold-drinks",
-        "type": "Cold Drinks",
-        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242"
+        "type": "Appliances Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Factories Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-coffees",
+        "type": "Restaurant Cleaning",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-teas",
+        "type": "Birds And Pets Control",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-drinks",
+        "type": "Aircraft and Airport cleaning",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/frappuccino-blended-beverages",
+        "type": "Toilet Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-coffees",
+        "type": "Upholsery & Furniture Clean",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/iced-teas",
+        "type": "Bioharzard Specialsed Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Boats & Marine Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Car Washing & valeting",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       }
     ],
+
+
+
     "food": [
       {
         "path": "/food/hot-breakfast",
-        "type": "Hot Breakfast",
-        "image": "https://globalassets.starbucks.com/assets/f9a4cd143c4342abbb4f60b7fab4e6df.jpg?impolicy=1by1_wide_1242"
+        "type": "window inspection report",
+        "image": "https://globalassets.starbucks.com/assets/f9a4cd143c4342abbb4f60b7fab4e6df.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       },
       {
         "path": "/food/bakery",
-        "type": "Bakery",
-        "image": "https://globalassets.starbucks.com/assets/2362e79aa0ab4c37a930956c67ab557a.jpg?impolicy=1by1_wide_1242"
+        "type": "windows frames scrubbed ",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       },
       {
         "path": "/food/lunch",
-        "type": "Lunch",
-        "image": "https://globalassets.starbucks.com/assets/02ea801e3aca434fa2fcccfcd4adba8c.jpg?impolicy=1by1_wide_1242"
+        "type": "Ceiling Cleaning Services",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       },
       {
         "path": "/food/snacks-and-sweets",
-        "type": "Snacks & Sweets",
-        "image": "https://globalassets.starbucks.com/assets/374230e32c03466e9f1696551d843f3b.jpg?impolicy=1by1_wide_1242"
+        "type": "General Disinfection",
+        "image": "https://globalassets.starbucks.com/assets/374230e32c03466e9f1696551d843f3b.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       },
       {
         "path": "/food/oatmeal-and-yogurt",
-        "type": "Oatmeal & Yogurt",
-        "image": "https://globalassets.starbucks.com/assets/3e10e6d4c9cb412b9f37d421c0376465.jpg?impolicy=1by1_wide_1242"
+        "type": "Hotels room Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/3e10e6d4c9cb412b9f37d421c0376465.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      }
+      ,
+      {
+        "path": "/food/oatmeal-and-yogurt",
+        "type": "Land and Sites Clearance",
+        "image": "https://globalassets.starbucks.com/assets/3e10e6d4c9cb412b9f37d421c0376465.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       }
     ],
     "atHomeCoffee": [
       {
         "path": "/at-home-coffee/whole-bean",
-        "type": "Whole Bean",
-        "image": "https://globalassets.starbucks.com/assets/69b578aa962c40f98d88d9d521c5410c.jpg?impolicy=1by1_wide_1242"
+        "type": "paint marks removal",
+        "image": "https://www.horeca.com/images/product/detail/electrolux-4-vlams-gas-fornuis-met-gas-oven-e9gcgh4cg0-391005(1).jpg",
+        "price": "$30"
       },
       {
-        "path": "/at-home-coffee/verismo-pods",
-        "type": "Verismo® Pods",
-        "image": "https://globalassets.starbucks.com/assets/833e95732cc849a4b1fe1d315771ae0a.jpg?impolicy=1by1_wide_1242"
+        "path": "/at-home-coffee/whole-bean",
+        "type": "Car park cleaning",
+        "image": "https://www.horeca.com/images/product/detail/electrolux-4-vlams-gas-fornuis-met-gas-oven-e9gcgh4cg0-391005(1).jpg",
+        "price": "$30"
       },
       {
         "path": "/at-home-coffee/via-instant",
-        "type": "VIA® Instant",
-        "image": "https://globalassets.starbucks.com/assets/27d30b52d95948fc81141af6bb91a108.jpg?impolicy=1by1_wide_1242"
+        "type": "Stadium cleaning ",
+        "image": "https://p.globalsources.com/IMAGES/PDT/B5077030116/Panoramic-Ball-Head-Max-Load-6kg.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/at-home-coffee/via-instant",
+        "type": "Church cleaning ",
+        "image": "https://dubbingking.com/wp-content/uploads/2020/03/Radio-Station-Equipment-for-a-Professional-Studio-Setup-New-Header_959859dc378260aea429e8718bdccf34.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-coffees",
+        "type": " Public areas cleaning",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-teas",
+        "type": "Hard Floor Cleaning ",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-drinks",
+        "type": "Waste disposal",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/frappuccino-blended-beverages",
+        "type": "Duct & Vent Cleaning®",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-coffees",
+        "type": "Gutter Cleaning Services",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/iced-teas",
+        "type": "Odour Removal",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Pressure Washing",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": " Drainage cleaning",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       }
     ],
+
     "merchandise": [
       {
         "path": "/merchandise/drinkware",
-        "type": "Drinkware",
-        "image": "https://globalassets.starbucks.com/assets/b3c749e064534f608fcc84076329f39d.jpg?impolicy=1by1_wide_1242"
+        "type": "Carpet Cleaning Stains",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/merchandise/drinkware",
+        "type": "clean Communal Areas",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-coffees",
+        "type": "Main cabin cleaning ",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-teas",
+        "type": "air sterilization room",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-drinks",
+        "type": "Microfiber Cloths",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/frappuccino-blended-beverages",
+        "type": "Window & blind cleaning",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-coffees",
+        "type": "Clinics cleaning service",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/iced-teas",
+        "type": "Graffiti removal",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Handyman Services",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Chimney Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-coffees",
+        "type": "seater sofa Dry cleaning",
+        "image": "https://2.imimg.com/data2/IU/CX/MY-3006476/81vgbokmqkl-_aa1402_-500x500.jpg",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-teas",
+        "type": "Bedroom Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/hot-drinks",
+        "type": "Dust Annihilation",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/frappuccino-blended-beverages",
+        "type": "Wall cleanup Services",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288",
+        "price": "$/hr"
+      },
+      {
+        "path": "/drinks/cold-coffees",
+        "type": "washing  machine cleaning",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/iced-teas",
+        "type": "Bathroom/ Toilets Cleaning",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Semi Detached house",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Sweep and Vaccum",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242",
+        "price": "$30"
       }
     ]
   }

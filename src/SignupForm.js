@@ -156,7 +156,7 @@ function SignupForm() {
           </h4>
           <span className="signupForm__span">
             Email is a great way to know about offers and what’s new from
-            Starbucks.
+            TazzerCleaning.
           </span>
           <FormSubmit name="Create account" type="submit" />
         </form>

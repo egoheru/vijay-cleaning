@@ -15,7 +15,7 @@ function MenuHeader() {
         >
           All products
         </Link>
-        <Link
+        {/* <Link
           to='/menu/featured'
           className={`${index === 1 && 'menuHeader__link--active'}`}
           onClick={() => setIndex(1)}
@@ -35,7 +35,7 @@ function MenuHeader() {
         onClick={() => setIndex(1)}
         >
           Favorite Products
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

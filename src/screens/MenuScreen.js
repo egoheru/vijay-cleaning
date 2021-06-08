@@ -14,13 +14,13 @@ function MenuScreen() {
           <MenuList />
         </div>
         <div className="menuScreen__right">
-          <h1>Menu</h1>
+          <h1>TazzerCleaning</h1>
           <div className="menuScreen__category">
-            <h2>Drinks</h2>
+            <h2>Cleaning Services</h2>
             <div className="menuScreen__items">
               {menuList.map((menuListCategory) =>
-                menuListCategory.drinks.map(({ type, path, image }) => (
-                  <MenuItem type={type} image={image} />
+                menuListCategory.drinks.map(({ type, path, image, price }) => (
+                  <MenuItem type={type} image={image} price={price}/>
                 ))
               )}
             </div>
@@ -30,8 +30,8 @@ function MenuScreen() {
             <h2>Food</h2>
             <div className="menuScreen__items">
               {menuList.map((menuListCategory) =>
-                menuListCategory.food.map(({ type, path, image }) => (
-                  <MenuItem type={type} image={image} />
+                menuListCategory.food.map(({ type, path, image, price }) => (
+                  <MenuItem type={type} image={image} price={price} />
                 ))
               )}
             </div>
@@ -41,8 +41,8 @@ function MenuScreen() {
             <h2>At Home Coffee</h2>
             <div className="menuScreen__items">
               {menuList.map((menuListCategory) =>
-                menuListCategory.atHomeCoffee.map(({ type, path, image }) => (
-                  <MenuItem type={type} image={image} />
+                menuListCategory.atHomeCoffee.map(({ type, path, image, price }) => (
+                  <MenuItem type={type} image={image} price={price} />
                 ))
               )}
             </div>
@@ -52,8 +52,8 @@ function MenuScreen() {
             <h2>Merchandise</h2>
             <div className="menuScreen__items">
               {menuList.map((menuListCategory) =>
-                menuListCategory.merchandise.map(({ type, path, image }) => (
-                  <MenuItem type={type} image={image} />
+                menuListCategory.merchandise.map(({ type, path, image, price }) => (
+                  <MenuItem type={type} image={image} price={price} />
                 ))
               )}
             </div>

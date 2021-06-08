@@ -3,7 +3,7 @@ import React from 'react'
 function HomeAgain() {
     return (
         <div>
-            Home again screen
+            {/* Home again screen */}
         </div>
     )
 }

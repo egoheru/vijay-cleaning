@@ -20,9 +20,11 @@ import SignupScreen from "./screens/SignupScreen";
 import Rewards from "./cleaning/Rewards";
 import PreviousOrder from "./PreviousOrder";
 import FavouriteProduct from "./FavouriteProduct";
-import Card from "./cleaning/Card";
+// import Cards from "./cleaning/Card";
 import Contact from "./cleaning/Contact";
 import MenuHeader from "./MenuHeader";
+import CleanFooter from "./cleaning/CleanFooter";
+import Cards from "./cleaning/Cards";
 // import "./cleaning/Contact.css"
 
 function App() {
@@ -58,11 +60,12 @@ function App() {
               <Footer />
             </Fade>
           </Route>
-          <Route exact path="/rewards">
+          <Route exact path="/services">
             <Rewards />
           </Route>
-          <Route exact path="/cards">
-            <Card />
+          <Route exact path="/about">
+          <Header />
+           <Cards />
           </Route>
           <Route exact path="/contact">
             <Contact />
@@ -98,7 +101,9 @@ function App() {
           <Route path="/menu/favouriteproduct" component={FavouriteProduct} />
           
         </Switch>
+        {/* <CleanFooter /> */}
       </Router>
+     
     </div>
   );
 }

@@ -85,15 +85,16 @@ export const Navigation = ({ toggle }) => {
         </motion.ul>
       ) : (
         <motion.ul variants={variants}>
-          <MenuLink
+          {/* <MenuLink
             link="Category Menu"
             icon
             onClick={() => setShowMenuCategories(true)}
-          />
+          /> */}
           {/* <MenuLink  icon onClick={() => setShowMenuCategories(true)} link="Rewards" /> */}
-          <MenuLink path="/menu"  link="Menu" />
-          <MenuLink path="/rewards" link="Rewards" />
-          <MenuLink path="/cards"  link="Gift Cards" />
+          <MenuLink path="/menu"  link="Start" />
+          <MenuLink path="/services" link="Services" />
+          <MenuLink path="/about"  link="About Us" />
+          {/* <MenuLink path="/cards"  link="Gift Cards" /> */}
           <MenuLink path="/contact" link="Contact Us" />
           
           <motion.hr variants={variants2} />

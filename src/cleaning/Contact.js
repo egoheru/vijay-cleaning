@@ -3,6 +3,11 @@ import Header from '../Header'
 import { Link } from 'react-router-dom'
 import "./Contact.css"
 import { db } from "../firebase"
+import Cards from './Cards'
+import HeaderAir from '../AirCleaning/HeaderAir'
+import CleanFooter from './CleanFooter'
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailIcon from '@material-ui/icons/Email';
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -36,16 +41,33 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact-background">
-            {/* <Header /> */}
-            <Link to="/">
+      <>
+      <Link to="/">
             <div className="head-contact">
                Back Home
             </div>
             </Link>
+        <div className="contact-info">
+          <h1> <WhatsAppIcon className="whatsapp-icon"/> WhatsApp : 0091 9731330926</h1>
+          <h1> <EmailIcon className="email-icon" /> Email: info@tazzercleaners.com</h1>
+          <h1> <EmailIcon className="email-icon" /> Email: tazzercleaners@gmail.com</h1>
+          
+          {/* <h1>55670-76789</h1> */}
+        </div>
+        <div className="contact-background">
+            {/* <Header /> */}
+            <HeaderAir />
+            {/* <Link to="/">
+            <div className="head-contact">
+               Back Home
+            </div>
+            </Link> */}
+
+             {/* <Cards /> */}
+             
             <div className="app-contact">
           <form className="form" onSubmit={handleSubmit} >
-            <h1>Contact form</h1>
+            <h1>Contact Us</h1>
   
             <label>Name</label>
                 <input 
@@ -78,7 +100,9 @@ const Contact = () => {
                 </button>
           </form>
           </div>
+          <CleanFooter />
         </div>
+        </>
     )
 }
 

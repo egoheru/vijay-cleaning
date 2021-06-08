@@ -4,8 +4,8 @@ import Header from '../Header'
 function rewardList() {
     return (
         <div>
-            reward
-            <Header />
+            {/* reward
+            <Header /> */}
         </div>
     )
 }

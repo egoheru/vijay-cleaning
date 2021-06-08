@@ -1,5 +1,6 @@
 .homeScreen__top {
-  background-color: #d4e9e2;
+  /* background-color: #d4e9e2; */
+  background-color: rgb(242, 232, 207);
   text-align: center;
   padding: 32px;
   margin-bottom: 20px;
@@ -46,7 +47,8 @@
   gap: 60px;
   align-items: center;
   justify-content: center;
-  background-color: #d4e9e2;
+  /* background-color: #d4e9e2; */
+  background-color:rgb(242, 232, 207) ;
 }
 
 .homeScreen__bottomLeft {
@@ -149,6 +151,10 @@
 .homeScreen__discover {
   display: flex;
   gap: 25px;
+  padding: 40px;
+  background-color:rgb(242, 232, 207) ;
+  /* background-color:green; */
+  /* border-radius: 50px; */
 }
 
 @media (max-width: 768px) {
@@ -156,3 +162,4 @@
     flex-direction: column;
   }
 }
+

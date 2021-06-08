@@ -1,0 +1,30 @@
+.RealBout-text {
+    width: 50px;
+}
+
+.RealBout-text h2 {
+    font-size: 2rem;
+    color: saddlebrown;
+    font-weight: 500 ;
+    margin: 0;
+    padding: 0;
+}
+
+.RealBout-text p {
+    font-size: 1.2rem;
+    color: salmon;
+}
+
+.RealBout-text button {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: teal;
+    background-color: darkblue;
+}
+
+.RealBout-model img {
+    height: 40px;
+}

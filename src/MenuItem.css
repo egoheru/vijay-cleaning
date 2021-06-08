@@ -29,3 +29,12 @@
     font-size: 16px;
   }
 }
+
+/* extra */
+.menuItem__type:hover {
+  color: green;
+}
+
+.menuItem p:hover {
+  color: goldenrod;
+}

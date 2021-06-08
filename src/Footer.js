@@ -6,6 +6,7 @@ import './Footer.css'
 import { Link } from 'react-router-dom'
 import KeyboardArrowUpRoundedIcon from '@material-ui/icons/KeyboardArrowUpRounded'
 import KeyboardArrowDownRoundedIcon from '@material-ui/icons/KeyboardArrowDownRounded'
+import CleanFooter from './cleaning/CleanFooter'
 
 const Accordion = ({
   i,
@@ -79,58 +80,59 @@ export const Footer = () => {
       <Accordion
         expanded={expanded}
         setExpanded={setExpanded}
-        linkHeading='About Us'
+        linkHeading='Domestic Maintainance'
         i={0}
-        link1='Our Heritage'
-        link2='Our Coffee'
-        link3='Stories and News'
-        link4='Investor Relations'
-        link5='Policies and Standards'
-        link6='Customer Service'
+        link1='window Cleaning'
+        link2='Office Cleaning'
+        link3='Medical Cleaning '
+        link4='School Cleaning'
+        link5='Birds And Pets Control'
+        link6='Block Maintainance'
       />
       <Accordion
         expanded={expanded}
         setExpanded={setExpanded}
-        linkHeading='Careers'
+        linkHeading='Cleaning Services'
         i={1}
-        link1='Culture and Values'
-        link2='Inclusion, Diversity, and Equity'
-        link3='College Achievement Plan'
-        link4='U.S. Careers'
-        link5='International Careers'
+        link1='Upholsery & Furniture Clean'
+        link2='AirCraft And AirPort Cleaning'
+        link3='Apartment/Block Maintainance'
+        link4='Bioharzard/Specialsed Cleaning'
+        link5='Boats & Marine Cleaning'
       />
       <Accordion
         expanded={expanded}
         setExpanded={setExpanded}
-        linkHeading='Social Impact'
+        linkHeading='commercial Clean'
         i={2}
-        link1='Ethical Sourcing'
-        link2='Leading in Sustainability'
-        link3='Strengthening Communities'
-        link4='Creating Oppurtunities'
-        link5='Global Social Impact Report'
+        link1='Appliances Cleaning'
+        link2='Car Washing & valeting'
+        link3='Oven/BBQ Deep clean'
+        link4='Carpet & Rug Cleaning'
+        link5='Train & Bus Cleaning'
       />
       <Accordion
         expanded={expanded}
         setExpanded={setExpanded}
-        linkHeading='For Business Partners'
+        linkHeading='Accreditations'
         i={3}
-        link1='Landlord Support Center'
-        link2='Suppliers'
-        link3='Corporate Gift Card Sales'
-        link4='Office and Foodservice Coffee'
+        link1='ISO 9001 for quality standards'
+        link2='ISO 14001 for environmental systems'
+        link3='ISO 18001 for health and safety systems'
+        link4='ISO 27001 for information security'
       />
-      <Accordion
+       <Accordion
         expanded={expanded}
         setExpanded={setExpanded}
-        linkHeading='Order and Pickup'
+        linkHeading='Memberships'
         i={4}
-        link1='Order on the App'
-        link2='Order on the Web'
-        link3='Delivery'
-        link4='Order and Pickup Options'
-        link5='Explore and Find Coffee for Home'
+        link1='BICSc'
+        link2='BIFM'
+        link3='CHAS'
+        link4='CSSA Safe Contractor'
+        link5='BFA Full Member'
       />
+      <CleanFooter />
     </>
   )
 }

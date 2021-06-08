@@ -33,7 +33,14 @@
 
 .featured__right > img {
   object-fit: contain;
-  width: 600px;
+  /* width: 600px; */
+  width: 400px;
+}
+
+.featured__right > img:hover{
+  width: 450px;
+  transition: 1s;
+  cursor: pointer;
 }
 
 .featured__left > a {
